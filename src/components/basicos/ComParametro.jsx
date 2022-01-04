@@ -12,7 +12,7 @@ export default function ComParametro(props) {
                     <strong> { props.notaAluno }</strong>.
             </p>
             <p>
-                Ele está { status }!
+                Ele está aqui com situação { status }!
             </p>
         </div>
     )
