@@ -11,9 +11,9 @@ ReactDOM.render(
   <div>
     <Primeiro/>
     <ComParametro
-      titulo="#02 Componente"
-      subtitulo="Primeiros passos."
-      msg="Estamos usando uma função com parâmetro."
+      tituloComponente="#02 Componente"
+      nomeAluno="Pedro"
+      notaAluno={8}
     />
   </div>,
    el
