@@ -8,8 +8,8 @@ export default () => (
   <div id="app">
     <h1>Fundamentos React</h1>
     <Aleatorio 
-        max={20}
-        min={0}
+        valorMax={80}
+        valorMin={0}
     />
     <Fragmento />
     <ComParametro
