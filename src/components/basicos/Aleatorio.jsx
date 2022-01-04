@@ -6,12 +6,12 @@ export default (props) => {
     const valorAleatorio = Math.floor(Math.random() * (valorMax - valorMin + 1)) + valorMin;
     
     return (
-    <>
-      <h2>#05 - Valor aleatório</h2>
+    <div>
+      <h2>#04 - Valor aleatório</h2>
       <p>Valor mínimo: { valorMin }</p>
       <p>Valor máximo: { valorMax }</p>
       <p>O número aleatório é: <strong> { valorAleatorio } </strong></p>
-    </>
+    </div>
     );
 };
 

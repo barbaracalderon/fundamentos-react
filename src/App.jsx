@@ -3,38 +3,27 @@ import Primeiro from "./components/basicos/Primeiro";
 import ComParametro from "./components/basicos/ComParametro";
 import Fragmento from "./components/basicos/Fragmento";
 import Aleatorio from "./components/basicos/Aleatorio";
+import Card from "./components/layout/Card";
 
-export default () => (
-  <div id="app">
-    <h1>Fundamentos React</h1>
-    <Aleatorio 
-        valorMax={80}
-        valorMin={0}
-    />
-    <Fragmento />
-    <ComParametro
-      tituloComponente="#02 - Componente"
-      nomeAluno="Pedro"
-      notaAluno={8}
-    />
-    <Primeiro />
-  </div>
-);
-
-/*
-ALTERNATIVA: 
-export default function App(props) {
-    return (
-        <div id="app">
-            <h1>Fundamentos React</h1>
-            <Fragmento />
+export default () => 
+    <div id="app">
+        <h1>Fundamentos React</h1>
+        <Card titulo="Quarto Componente">
+            <Aleatorio 
+                valorMin={0}
+                valorMax={60}
+            />
+        </Card>
+        <Card titulo="Terceiro Componente">
+            <Fragmento/>
+        </Card>
+        <Card titulo="Segundo Componente">
             <ComParametro
-                tituloComponente="#02 - Componente"
-                nomeAluno="Pedro"
-                notaAluno={8} />
+            tituloComponente="#02 - Componente ComParâmetro"
+            nomeAluno="Pedro"
+            notaAluno={8.2} />
+        </Card>
+        <Card titulo="Primeiro Componente">
             <Primeiro />
-
-        </div>
-    )
-}
-*/
+        </Card>
+    </div>
