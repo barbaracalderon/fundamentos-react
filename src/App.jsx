@@ -17,10 +17,7 @@ export default () =>
         <h1>Fundamentos React</h1>
         <div className="Cards">
             <Card titulo="Nono Componente" color="#1b9">
-                <UsuarioInfo usuario={{nome: 'Fernando'}} />
-                <UsuarioInfo />
-                <UsuarioInfo usuario='' />
-
+                <UsuarioInfo usuario={{nome: 'João'}} />
             </Card>
             <Card titulo="Oitavo Coponente" color="#921">
                 <ParOuImpar num={18}/>
