@@ -11,11 +11,15 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 
 export default () => 
     <div id="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="Décimo Componente" color="#83f">
+                <DiretaPai />
+            </Card>
             <Card titulo="Nono Componente" color="#1b9">
                 <UsuarioInfo usuario={{nome: 'João'}} />
             </Card>
