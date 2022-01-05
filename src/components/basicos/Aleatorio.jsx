@@ -7,7 +7,7 @@ export default (props) => {
     
     return (
     <div>
-      <h2>#04 - Valor aleatório</h2>
+      <h2>#04 - Componente ValorAleatório</h2>
       <p>Valor mínimo: { valorMin }</p>
       <p>Valor máximo: { valorMax }</p>
       <p>O número aleatório é: <strong> { valorAleatorio } </strong></p>
