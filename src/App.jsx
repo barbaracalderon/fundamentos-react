@@ -9,12 +9,16 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 
 export default () => 
     <div id="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
-            <Card titulo = "Sétimo Componente" color="#d08">
+            <Card titulo="Oitavo Coponente" color="#921">
+                <ParOuImpar num={18}/>
+            </Card>
+            <Card titulo = "Sétimo Componente" color="#a38">
                 <TabelaProdutos />
             </Card>
             <Card titulo="Sexto Componente" color="#bcf">
