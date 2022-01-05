@@ -12,11 +12,15 @@ import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 export default () => 
     <div id="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="Décimo Primeiro Componente" color="#872">
+                <IndiretaPai />
+            </Card>
             <Card titulo="Décimo Componente" color="#83f">
                 <DiretaPai />
             </Card>
