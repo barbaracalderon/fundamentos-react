@@ -1,5 +1,5 @@
-.Contador button {
-    background-color: rgb(37, 30, 111);
+.Contador2 button {
+    background-color: rgb(89, 11, 91);
     font-size: 20px;
     color: white;
     height: 60px;
@@ -10,16 +10,16 @@
     text-align: center;
 }
 
-.Contador h1 {
+.Contador2 h1 {
     margin-top: 30px;
     padding-top: 30px;
 }
 
-.Contador label {
+.Contador2 label {
     font-size: 16px;
 }
 
-.Contador input {
+.Contador2 input {
     width: 15%;
     font-size: 16px;
 }

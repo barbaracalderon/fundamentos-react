@@ -15,11 +15,15 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/Contador";
+import Contador2 from "./components/contador/Contador2";
 
 export default () => 
     <div id="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="Décimo Quarto Componente" color="#505">
+                <Contador2 numeroInicial={0} passoInicial={5} />
+            </Card>
             <Card titulo="Décimo Terceiro Componente" color="#003">
                 <Contador numeroInicial={0} passoInicial={5} />
             </Card>
