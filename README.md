@@ -1,16 +1,15 @@
 # Fundamentos-React
 
-Estudos e prática do **React.js** -> parte "Fundamentos React".
+Esse repositório contém meus estudos e prática, da parte **FUNDAMENTOS REACT**, do [curso da Udemy](https://www.udemy.com/course/react-redux-pt/) do Leonardo Moura Leitão.
 
- [Do curso da Udemy do Leonardo Moura Leitão](https://www.udemy.com/course/react-redux-pt/).
+## Caderno de Anotações
+[ANOTAÇÕES.md](https://github.com/barbaracalderon/fundamentos-react/blob/master/ANOTACOES.md)
 
-## **Em construção**
-
-**DESKTOP**:
+**DESKTOP**
 
  ![desktop printscreen](react.png)
 
-**MOBILE**:
+**MOBILE**
 
  ![mobile printscreen](react_mobile.png)
 
