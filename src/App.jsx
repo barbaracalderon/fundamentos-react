@@ -13,11 +13,15 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
 
 export default () => 
     <div id="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="Décimo Segundo Componente" color="#FC0">
+                <Input />
+            </Card>
             <Card titulo="Décimo Primeiro Componente" color="#872">
                 <IndiretaPai />
             </Card>
