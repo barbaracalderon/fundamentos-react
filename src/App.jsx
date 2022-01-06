@@ -21,7 +21,7 @@ export default () =>
         <h1>Fundamentos React</h1>
         <div className="Cards">
             <Card titulo="Décimo Terceiro Componente" color="#003">
-                <Contador />
+                <Contador numeroInicial={0} passoInicial={5} />
             </Card>
             <Card titulo="Décimo Segundo Componente" color="#FC0">
                 <Input />
